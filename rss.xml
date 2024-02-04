@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+  <rss version="2.0"><channel> 
+				<title>RSS IegCode - Marketplace</title> 
+				<description>IegCode adalah marketplace yang menawarkan pengalaman belanja online yang cepat, aman dan nyaman dengan kategori produk yang paling lengkap di Indonesia</description>
+				<link>http://localhost/TOKO_MARKETPLACEMUV1</link> 
+				<language>id-id</language><item>
+						                <title>SUNTIK FOLLOERS IG, TIKTOK, YOUTUBE</title>
+						                <link>http://localhost/marketplace/berita/detail/suntik-folloers-ig-tiktok-youtube</link>
+						                <description></description>
+					                </item><item>
+						                <title>LAYANAN SERVICE PLATFORM</title>
+						                <link>http://localhost/marketplace/berita/detail/layanan-service-platform</link>
+						                <description></description>
+					                </item><item>
+						                <title>JASA PPDB ONLINE</title>
+						                <link>http://localhost/marketplace/berita/detail/jasa-ppdb-online</link>
+						                <description></description>
+					                </item><item>
+						                <title>DISKON WEBSITE PORTFOLIO</title>
+						                <link>http://localhost/marketplace/berita/detail/diskon-website-portfolio</link>
+						                <description></description>
+					                </item></channel>
+  	</rss>
