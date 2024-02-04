@@ -2,11 +2,11 @@
 /*
 -- ---------------------------------------------------------------
 -- MARKETPLACE MULTI BUYER MULTI SELLER + SUPPORT RESELLER SYSTEM
--- CREATED BY : ROBBY PRIHANDAYA
--- COPYRIGHT  : Copyright (c) 2018 - 2019, PHPMU.COM. (https://phpmu.com/)
+-- CREATED BY : IBRAHIM EL GIBRAN
+-- COPYRIGHT  : Copyright (c) 2023 - 2024, IEGCODE. (https://iegcode.my.id/)
 -- LICENSE    : http://opensource.org/licenses/MIT  MIT License
--- CREATED ON : 2019-03-26
--- UPDATED ON : 2019-03-27
+-- CREATED ON : 2023-04-17
+-- UPDATED ON : 2024-04-17
 -- ---------------------------------------------------------------
 */
 class Model_reseller extends CI_model{
