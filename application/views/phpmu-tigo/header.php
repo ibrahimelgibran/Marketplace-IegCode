@@ -4,13 +4,13 @@ echo "<div class='wrapper'>
 		  $iden = $this->model_utama->view('identitas')->row_array();
 		  $logo = $this->model_utama->view_ordering_limit('logo','id_logo','DESC',0,1);
 		  foreach ($logo->result_array() as $row) {
-			echo "<a href='".base_url()."'><img style='height:40px' src='".base_url()."asset/logo/$row[gambar]'/></a>";
+			echo "<a href='".base_url()."'><img style='height:70px' src='".base_url()."asset/logo/$row[gambar]'/></a>";
 		  }
 	echo "
 	</div>	
 	<div class='mainmenu hidden-xs'>
 	    <ul class='mainnav'>
-	        <li class='hassubs first'><a href='#'><span class='glyphicon glyphicon-th-list'></span>&nbsp; Kategori</a>
+		<li class='hassubs first' style='margin-top: 15px;'><a href='#'><span class='glyphicon glyphicon-th-list'></span>&nbsp; Kategori</a></li>
 	        	<ul class='dropdown-phpmu'>";
 	        	$kategori = $this->model_app->view('rb_kategori_produk');
 				foreach ($kategori->result_array() as $rows) {
@@ -32,9 +32,9 @@ echo "<div class='wrapper'>
 	</div>
 
 	<div class='header-menu'>
-		<div class='header-search'>
+		<div class='header-search' style='margin-top: 10px;'>
 			".form_open('produk/index')."
-				<input type='text' placeholder='Akun Mau Belanja..'' name='kata' class='search-input' required/>
+				<input type='text' placeholder='Aku Mau Belanja Yaa..'' name='kata' class='search-input' required/>
 				<input type='submit' value='Search' name='cari' class='search-button'/>
 			</form>
 		</div>

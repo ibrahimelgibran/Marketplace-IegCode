@@ -9,7 +9,7 @@
 	<meta name="robots" content="index, follow">
 	<meta name="description" content="<?php echo $description; ?>">
 	<meta name="keywords" content="<?php echo $keywords; ?>">
-	<meta name="author" content="phpmu.com">
+	<meta name="author" content="ibrahimelgibran.com">
 	<meta name="robots" content="all,index,follow">
 	<meta http-equiv="Content-Language" content="id-ID">
 	<meta NAME="Distribution" CONTENT="Global">
